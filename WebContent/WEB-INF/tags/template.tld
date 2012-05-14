@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+version="2.1">
+<tlib-version>1.0</tlib-version>
+<description>This is template for Master Page</description>
+<shortname>tags</shortname>
+package com.pbs.utility
+<tag>
+	<name>hello</name>
+	<tagclass>com.pbs.utility.HelloWorldTag</tagclass>
+	<bodycontent>empty</bodycontent> 
+</tag>
+<tag>
+	<name>insert</name>
+	<tagclass>com.pbs.utility.InsertTag</tagclass>
+	<attribute>
+		<name>template</name>
+		<required>true</required>
+	</attribute>
+</tag>
+<tag>
+	<name>get</name>
+	<tagclass>com.pbs.utility.GetTag</tagclass>
+	<bodycontent>empty</bodycontent> 
+	<attribute>
+		<name>name</name>
+		<required>true</required>
+	</attribute>
+</tag>
+<tag>
+	<name>put</name>
+	<tagclass>com.pbs.utility.PutTag</tagclass>
+	<bodycontent>empty</bodycontent> 
+	<attribute>
+		<name>name</name>
+		<required>true</required>
+	</attribute>
+	<attribute>
+		<name>content</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+	</attribute>
+	<attribute>
+		<name>direct</name>
+		<required>false</required>
+	</attribute>
+</tag>
+</taglib>

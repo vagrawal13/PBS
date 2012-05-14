@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/victor/Desktop/Recent/mysql-connector-java-5.1.10-bin.jar"/>
+	<classpathentry kind="lib" path="E:/Programming/TGMC 2010/TGMC softies/Eclipse/eclipse-jee-galileo-SR2-win32/eclipse/plugins/com.google.gwt.eclipse.sdkbundle.2.1.1_2.1.1.v201012170127/gwt-2.1.1/gwt-user.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/E:/Programming/TGMC%202010/TGMC%20softies/Eclipse/eclipse-jee-galileo-SR2-win32/eclipse/plugins/com.google.gwt.eclipse.sdkbundle.2.1.1_2.1.1.v201012170127/gwt-2.1.1/doc/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/victor/Downloads/ormlite-core-4.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/victor/Downloads/ormlite-jdbc-4.24.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-2.3.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
